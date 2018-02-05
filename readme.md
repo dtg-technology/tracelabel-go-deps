@@ -1,0 +1,5 @@
+# What is this?
+This repository is a storage of go-dependencies for smart contracts of the TraceLabel project. We do not put these files into the project's repository as we have already more than 200 files here (before optimizing it was almost 2000 files). We suspect, that number may increase in the future. So, instead of polluting project repository with such a big number of external files, we decided to keep a 'vendor' directory in the external repository. When needed, we can clone in, run `go install` on them and that is done.
+## How-to
+This repository is tagged according to Hyperledger Fabric version, for which this set of sources is intended. Initial set of sources is for version 1.0.5.
+So, clone based on tag number, which corresponds to your version of fabric. Further instructions see in the TraceLabel project `readme.md`.
